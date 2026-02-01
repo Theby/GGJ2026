@@ -10,11 +10,13 @@ namespace GGJ2026.Data
         [SerializeField] Sprite partImage;
         [SerializeField] MaskColor maskColor;
         [SerializeField] MaskMaterial maskMaterial;
+        [SerializeField] MaskPartAttribute maskAttribute;
 
         public string MaskName => maskName;
         public MaskPartType MaskPartType => maskPartType;
         public Sprite PartImage => partImage;
         public MaskColor MaskColor => maskColor;
         public MaskMaterial MaskMaterial => maskMaterial;
+        public MaskPartAttribute MaskAttribute => maskAttribute;
     }
 }

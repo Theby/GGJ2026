@@ -17,3 +17,4 @@ MonoBehaviour:
   partImage: {fileID: 21300000, guid: 1e1c63baa5b6d21489e1822350cb5496, type: 3}
   maskColor: 0
   maskMaterial: 0
+  maskAttribute: 1

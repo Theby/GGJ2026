@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83503a3084eb437fa2923186759aa8aa, type: 3}
+  m_Name: MetalMaterial
+  m_EditorClassIdentifier: Assembly-CSharp::GGJ2026.Data.MaskPartMaterial
+  materialName: Metal
+  maskMaterial: 2
+  materialImage: {fileID: 0}

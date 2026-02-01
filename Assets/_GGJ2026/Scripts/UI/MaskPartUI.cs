@@ -26,6 +26,20 @@ namespace GGJ2026.UI
             gameObject.SetActive(image.sprite != null);
         }
 
+        public void SetData(int index, MaskPartColor maskPartColor)
+        {
+            this.index = index;
+            image.sprite = maskPartColor?.ColorImage;
+            gameObject.SetActive(image.sprite != null);
+        }
+
+        public void SetData(int index, MaskPartMaterial maskPartMaterial)
+        {
+            this.index = index;
+            image.sprite = maskPartMaterial?.MaterialImage;
+            gameObject.SetActive(image.sprite != null);
+        }
+
         void OnClickHandler()
         {
             OnClick?.Invoke(index);

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 913c98b8d06284b4993b09cc2298f94e, type: 3}
+  m_Name: ShopClient 0
+  m_EditorClassIdentifier: Assembly-CSharp::GGJ2026.Data.ShopClient
+  sprite: {fileID: 2106434657689075045, guid: 5dca58ece86153d49a0f3dcc3695fe6c, type: 3}
+  dialogTexts:
+  - I'm feeling really good today
+  - I want everyone to see it
+  - Such a good day today
+  requiredAttributes: 16
+  requiredColor: 0
+  requiredMaterial: 0
